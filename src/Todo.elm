@@ -8,6 +8,7 @@ import Html.Events exposing (onClick, onInput)
 
 main = Browser.sandbox { init = init, update = update, view = view }
 
+--type alias TodoItem = List String
 type alias TodoList = List String
 
 init : TodoList
